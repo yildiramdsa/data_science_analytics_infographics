@@ -1,0 +1,16 @@
+---
+title: "linear_regression"
+author: "Alina Yildir"
+date: "2024-11-18"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+ad = read.csv("../data/Advertising.csv")
+head(ad)
+```
+
